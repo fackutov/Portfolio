@@ -10,7 +10,7 @@ body header .fondo_header {
   grid-template-rows: 4;
   height: 400px;
   align-items: center;
-  background-image: url("/multimedia/imagenes/header/fondo_header.jpg");
+  background-image: url("../multimedia/imagenes/header/fondo_header.jpg");
   opacity: 94%;
 }
 body header .fondo_header h1, body header .fondo_header h2 {
@@ -93,7 +93,7 @@ body main section .terminados .logos h3 {
   color: #046857;
 }
 body main section .terminados .logos .img_html, body main section .terminados .logos .img_flask, body main section .terminados .logos .img_django, body main section .terminados .logos .img_javascripts, body main section .terminados .logos .img_mysql, body main section .terminados .logos .img_python, body main section .terminados .logos .img_github, body main section .terminados .logos .img_git, body main section .terminados .logos .img_bootstrap, body main section .terminados .logos .img_sass, body main section .terminados .logos .img_css {
-  background-image: url("../../multimedia/imagenes/logos/html_logo.png");
+  background-image: url("../multimedia/imagenes/logos/html_logo.png");
   padding: 10px;
   width: 200px;
   height: 200px;
@@ -101,34 +101,34 @@ body main section .terminados .logos .img_html, body main section .terminados .l
   background-position: center;
 }
 body main section .terminados .logos .img_css {
-  background-image: url("../../multimedia/imagenes/logos/css_logo.png");
+  background-image: url("../multimedia/imagenes/logos/css_logo.png");
 }
 body main section .terminados .logos .img_sass {
-  background-image: url("../../multimedia/imagenes/logos/sass_logo.png");
+  background-image: url("../multimedia/imagenes/logos/sass_logo.png");
 }
 body main section .terminados .logos .img_bootstrap {
-  background-image: url("../../multimedia/imagenes/logos/Bootstrap_logo.png");
+  background-image: url("../multimedia/imagenes/logos/Bootstrap_logo.png");
 }
 body main section .terminados .logos .img_git {
-  background-image: url("../../multimedia/imagenes/logos/git_logo.png");
+  background-image: url("../multimedia/imagenes/logos/git_logo.png");
 }
 body main section .terminados .logos .img_github {
-  background-image: url("../../multimedia/imagenes/logos/GitHub_logo.png");
+  background-image: url("../multimedia/imagenes/logos/GitHub_logo.png");
 }
 body main section .terminados .logos .img_python {
-  background-image: url("../../multimedia/imagenes/logos/python_logo.png");
+  background-image: url("../multimedia/imagenes/logos/python_logo.png");
 }
 body main section .terminados .logos .img_mysql {
-  background-image: url("../../multimedia/imagenes/logos/mysql_logo.png");
+  background-image: url("../multimedia/imagenes/logos/mysql_logo.png");
 }
 body main section .terminados .logos .img_javascripts {
-  background-image: url("../../multimedia/imagenes/logos/javascript_logo.png");
+  background-image: url("../multimedia/imagenes/logos/javascript_logo.png");
 }
 body main section .terminados .logos .img_django {
-  background-image: url("../../multimedia/imagenes/logos/django_logo.png");
+  background-image: url("../multimedia/imagenes/logos/django_logo.png");
 }
 body main section .terminados .logos .img_flask {
-  background-image: url("../../multimedia/imagenes/logos/flask_logo.png");
+  background-image: url("../multimedia/imagenes/logos/flask_logo.png");
 }
 
 /*# sourceMappingURL=style.css.map */
