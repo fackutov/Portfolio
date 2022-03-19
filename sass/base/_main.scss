@@ -12,8 +12,9 @@ body{
             grid-template-rows: 4;
             height: 400px;
             align-items: center;
-            background-image: url("/multimedia/imagenes/header/fondo_header.png");
+            background-image: url("/multimedia/imagenes/header/fondo_header.jpg");
             opacity: 94%;
+        
             h1{
                 grid-column: 1/2;
                 grid-row: 1/2;
@@ -38,6 +39,7 @@ body{
             }        
         }
     }
+    
     main{
         background-color: #046857;
         .aboutme{
@@ -76,64 +78,73 @@ body{
             justify-content: space-around;
             padding: 10px;
             }
-            .logos{
+            .terminados{
                 display: flex;
                 justify-content: space-evenly;
                 padding-left: 15%;
                 padding-right: 15%;
                 flex-wrap: wrap;
-                .img_html{
-                    background-image: url("../../multimedia/imagenes/logos/html_logo.png");
-                    padding: 10px;
-                    width: 200px;
-                    height: 200px;
-                    background-size: cover;
-                    background-position: center;
+                .logos{
+                    display: flex;
+                    flex-direction: column;
                     &:hover{
                         transform: scale(1.1);
                         background-color: #ffffff15;
                         border-radius: 20%;
+                        h3{color: #ffffff;}
                     }
-                }
-                .img_css{
-                    background-image: url("../../multimedia/imagenes/logos/css_logo.png");
-                    @extend .img_html
-                }
-                .img_sass{
-                    background-image: url("../../multimedia/imagenes/logos/sass_logo.png");
-                    @extend .img_html
-                }
-                .img_bootstrap{
-                    background-image: url("../../multimedia/imagenes/logos/Bootstrap_logo.png");
-                    @extend .img_html
-                }
-                .img_git{
-                    background-image: url("../../multimedia/imagenes/logos/git_logo.png");
-                    @extend .img_html
-                }
-                .img_github{
-                    background-image: url("../../multimedia/imagenes/logos/GitHub_logo.png");
-                    @extend .img_html
-                }
-                .img_python{
-                    background-image: url("../../multimedia/imagenes/logos/python_logo.png");
-                    @extend .img_html
-                }
-                .img_mysql{
-                    background-image: url("../../multimedia/imagenes/logos/mysql_logo.png");
-                    @extend .img_html
-                }
-                .img_javascripts{
-                    background-image: url("../../multimedia/imagenes/logos/javascript_logo.png");
-                    @extend .img_html
-                }
-                .img_django{
-                    background-image: url("../../multimedia/imagenes/logos/django_logo.png");
-                    @extend .img_html
-                }
-                .img_flask{
-                    background-image: url("../../multimedia/imagenes/logos/flask_logo.png");
-                    @extend .img_html
+                    h3{
+                        text-align: center;
+                        color: #046857;
+                    }
+                    .img_html{
+                        background-image: url("../../multimedia/imagenes/logos/html_logo.png");
+                        padding: 10px;
+                        width: 200px;
+                        height: 200px;
+                        background-size: cover;
+                        background-position: center; 
+                    }
+                    .img_css{
+                        background-image: url("../../multimedia/imagenes/logos/css_logo.png");
+                        @extend .img_html
+                    }
+                    .img_sass{
+                        background-image: url("../../multimedia/imagenes/logos/sass_logo.png");
+                        @extend .img_html
+                    }
+                    .img_bootstrap{
+                        background-image: url("../../multimedia/imagenes/logos/Bootstrap_logo.png");
+                        @extend .img_html
+                    }
+                    .img_git{
+                        background-image: url("../../multimedia/imagenes/logos/git_logo.png");
+                        @extend .img_html
+                    }
+                    .img_github{
+                        background-image: url("../../multimedia/imagenes/logos/GitHub_logo.png");
+                        @extend .img_html
+                    }
+                    .img_python{
+                        background-image: url("../../multimedia/imagenes/logos/python_logo.png");
+                        @extend .img_html
+                    }
+                    .img_mysql{
+                        background-image: url("../../multimedia/imagenes/logos/mysql_logo.png");
+                        @extend .img_html
+                    }
+                    .img_javascripts{
+                        background-image: url("../../multimedia/imagenes/logos/javascript_logo.png");
+                        @extend .img_html
+                    }
+                    .img_django{
+                        background-image: url("../../multimedia/imagenes/logos/django_logo.png");
+                        @extend .img_html
+                    }
+                    .img_flask{
+                        background-image: url("../../multimedia/imagenes/logos/flask_logo.png");
+                        @extend .img_html
+                    }
                 }
             }    
         }
