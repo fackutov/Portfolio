@@ -1,0 +1,141 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    header{
+        .fondo_header{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 1;
+            grid-template-rows: 4;
+            height: 400px;
+            align-items: center;
+            background-image: url("/multimedia/imagenes/header/fondo_header.png");
+            opacity: 94%;
+            h1{
+                grid-column: 1/2;
+                grid-row: 1/2;
+                text-align: center;
+                color: #15b69b;
+                padding: 10px;
+                background-color: #070707d3;
+                border-radius: 20px;
+            }
+            .foto{
+                margin-left: 30%;
+                grid-column: 1/2;
+                grid-row: 2/4;
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            } 
+            h2{
+                grid-column: 1/2;
+                grid-row: 4/5;
+                @extend h1     
+            }        
+        }
+    }
+    main{
+        background-color: #046857;
+        .aboutme{
+            display: flex;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 30px;
+            .descripcion{
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                text-align: center;
+                background-color: #07070785;
+                border-radius: 20px;
+                h2{
+                    text-align: start;
+                    padding-left: 5%;
+                    font-size: 25px;
+                    color: #15b69b;
+                }
+                p{
+                    padding-left: 5%;
+                    padding-right: 5%;
+                    font-size: 18px;
+                    color: #ffffff;
+                }
+            }
+            .hobbies{
+                @extend .descripcion
+            }
+        }
+        section{
+            div{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 10px;
+            }
+            .logos{
+                display: flex;
+                justify-content: space-evenly;
+                padding-left: 15%;
+                padding-right: 15%;
+                flex-wrap: wrap;
+                .img_html{
+                    background-image: url("../../multimedia/imagenes/logos/html_logo.png");
+                    padding: 10px;
+                    width: 200px;
+                    height: 200px;
+                    background-size: cover;
+                    background-position: center;
+                    &:hover{
+                        transform: scale(1.1);
+                        background-color: #ffffff15;
+                        border-radius: 20%;
+                    }
+                }
+                .img_css{
+                    background-image: url("../../multimedia/imagenes/logos/css_logo.png");
+                    @extend .img_html
+                }
+                .img_sass{
+                    background-image: url("../../multimedia/imagenes/logos/sass_logo.png");
+                    @extend .img_html
+                }
+                .img_bootstrap{
+                    background-image: url("../../multimedia/imagenes/logos/Bootstrap_logo.png");
+                    @extend .img_html
+                }
+                .img_git{
+                    background-image: url("../../multimedia/imagenes/logos/git_logo.png");
+                    @extend .img_html
+                }
+                .img_github{
+                    background-image: url("../../multimedia/imagenes/logos/GitHub_logo.png");
+                    @extend .img_html
+                }
+                .img_python{
+                    background-image: url("../../multimedia/imagenes/logos/python_logo.png");
+                    @extend .img_html
+                }
+                .img_mysql{
+                    background-image: url("../../multimedia/imagenes/logos/mysql_logo.png");
+                    @extend .img_html
+                }
+                .img_javascripts{
+                    background-image: url("../../multimedia/imagenes/logos/javascript_logo.png");
+                    @extend .img_html
+                }
+                .img_django{
+                    background-image: url("../../multimedia/imagenes/logos/django_logo.png");
+                    @extend .img_html
+                }
+                .img_flask{
+                    background-image: url("../../multimedia/imagenes/logos/flask_logo.png");
+                    @extend .img_html
+                }
+            }    
+        }
+    }
+}
