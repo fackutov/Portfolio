@@ -13,8 +13,7 @@ body{
             height: 400px;
             align-items: center;
             background-image: url("../multimedia/imagenes/header/fondo_header.jpg");
-            opacity: 94%;
-        
+            opacity: 94%;      
             h1{
                 grid-column: 1/2;
                 grid-row: 1/2;
@@ -44,8 +43,9 @@ body{
         background-color: #046857;
         .aboutme{
             display: flex;
-            padding-left: 10%;
-            padding-right: 10%;
+            justify-content: space-between;
+            padding-left: 5%;
+            padding-right: 5%;
             padding-top: 30px;
             .descripcion{
                 display: flex;
@@ -54,6 +54,7 @@ body{
                 text-align: center;
                 background-color: #07070785;
                 border-radius: 20px;
+                margin: 2%;
                 h2{
                     text-align: start;
                     padding-left: 5%;
@@ -72,81 +73,111 @@ body{
             }
         }
         section{
-            div{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            padding: 10px;
+            h2{
+                text-align: center;
+                color: #15b69b;
+                padding: 10px;
+                background-color: #070707d3;
+                border-radius: 20px;
+                margin-left: 10%;
+                margin-right: 10%;
             }
-            .terminados{
-                display: flex;
-                justify-content: space-evenly;
-                padding-left: 15%;
-                padding-right: 15%;
-                flex-wrap: wrap;
-                .logos{
-                    display: flex;
-                    flex-direction: column;
-                    &:hover{
-                        transform: scale(1.1);
-                        background-color: #ffffff15;
-                        border-radius: 20%;
-                        h3{color: #ffffff;}
-                    }
-                    h3{
-                        text-align: center;
-                        color: #046857;
-                    }
-                    .img_html{
-                        background-image: url("../multimedia/imagenes/logos/html_logo.png");
-                        padding: 10px;
-                        width: 200px;
-                        height: 200px;
-                        background-size: cover;
-                        background-position: center; 
-                    }
-                    .img_css{
-                        background-image: url("../multimedia/imagenes/logos/css_logo.png");
-                        @extend .img_html
-                    }
-                    .img_sass{
-                        background-image: url("../multimedia/imagenes/logos/sass_logo.png");
-                        @extend .img_html
-                    }
-                    .img_bootstrap{
-                        background-image: url("../multimedia/imagenes/logos/Bootstrap_logo.png");
-                        @extend .img_html
-                    }
-                    .img_git{
-                        background-image: url("../multimedia/imagenes/logos/git_logo.png");
-                        @extend .img_html
-                    }
-                    .img_github{
-                        background-image: url("../multimedia/imagenes/logos/GitHub_logo.png");
-                        @extend .img_html
-                    }
-                    .img_python{
-                        background-image: url("../multimedia/imagenes/logos/python_logo.png");
-                        @extend .img_html
-                    }
-                    .img_mysql{
-                        background-image: url("../multimedia/imagenes/logos/mysql_logo.png");
-                        @extend .img_html
-                    }
-                    .img_javascripts{
-                        background-image: url("../multimedia/imagenes/logos/javascript_logo.png");
-                        @extend .img_html
-                    }
-                    .img_django{
-                        background-image: url("../multimedia/imagenes/logos/django_logo.png");
-                        @extend .img_html
-                    }
-                    .img_flask{
-                        background-image: url("../multimedia/imagenes/logos/flask_logo.png");
-                        @extend .img_html
-                    }
+            .estudios{
+                background-color: #07070785;
+                border-radius: 20px;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-bottom: 3%;
+                padding-bottom: 30px;
+                h3{
+                    color: #15b69b;
+                    text-align: center;
+                    padding-top: 30px;
+                    padding-bottom: 15px;
                 }
-            }    
+                .terminados{
+                    display: flex;
+                    justify-content: space-evenly;
+                    padding-left: 5%;
+                    padding-right: 5%;
+                    flex-wrap: wrap;
+                    .logos{
+                        display: flex;
+                        flex-direction: column;
+                        &:hover{
+                            transform: scale(1.1);
+                            background-color: #ffffff15;
+                            border-radius: 20%;
+                            h4{color: #ffffff;}
+                        }
+                        h4{
+                            text-align: center;
+                            color: #06362E;
+                            font-size: 18px;
+                        }
+                        .img_html{
+                            background-image: url("../multimedia/imagenes/logos/html_logo.png");
+                            padding: 10px;
+                            width: 120px;
+                            height: 120px;
+                            background-size: cover;
+                            background-position: center; 
+                        }
+                        .img_css{
+                            background-image: url("../multimedia/imagenes/logos/css_logo.png");
+                            @extend .img_html
+                        }
+                        .img_sass{
+                            background-image: url("../multimedia/imagenes/logos/sass_logo.png");
+                            @extend .img_html
+                        }
+                        .img_bootstrap{
+                            background-image: url("../multimedia/imagenes/logos/Bootstrap_logo.png");
+                            @extend .img_html
+                        }
+                        .img_git{
+                            background-image: url("../multimedia/imagenes/logos/git_logo.png");
+                            @extend .img_html
+                        }
+                        .img_github{
+                            background-image: url("../multimedia/imagenes/logos/GitHub_logo.png");
+                            @extend .img_html
+                        }
+                        .img_python{
+                            background-image: url("../multimedia/imagenes/logos/python_logo.png");
+                            @extend .img_html
+                        }
+                        .img_mysql{
+                            background-image: url("../multimedia/imagenes/logos/mysql_logo.png");
+                            @extend .img_html
+                        }
+                        .img_javascripts{
+                            background-image: url("../multimedia/imagenes/logos/javascript_logo.png");
+                            @extend .img_html
+                        }
+                        .img_django{
+                            background-image: url("../multimedia/imagenes/logos/django_logo.png");
+                            @extend .img_html
+                        }
+                        .img_flask{
+                            background-image: url("../multimedia/imagenes/logos/flask_logo.png");
+                            @extend .img_html
+                        }
+                    }
+                } 
+                .img_dipDW{
+                    width: 650px;
+                    height: 500px;
+                    margin-bottom: 20px;
+                    background-size: cover;
+                    background-position: center;
+                    background-image: url("../../multimedia/imagenes/diplomas/diploma_DW_coderhouse.png");
+                }
+                .img_dipPP{
+                    background-image: url("../../multimedia/imagenes/diplomas/diploma_PP_prisma.png");
+                    @extend .img_dipDW
+                }
+            }   
         }
     }
 }

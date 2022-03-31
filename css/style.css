@@ -39,8 +39,9 @@ body main {
 }
 body main .aboutme {
   display: flex;
-  padding-left: 10%;
-  padding-right: 10%;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 30px;
 }
 body main .aboutme .descripcion, body main .aboutme .hobbies {
@@ -50,6 +51,7 @@ body main .aboutme .descripcion, body main .aboutme .hobbies {
   text-align: center;
   background-color: #07070785;
   border-radius: 20px;
+  margin: 2%;
 }
 body main .aboutme .descripcion h2, body main .aboutme .hobbies h2 {
   text-align: start;
@@ -63,72 +65,101 @@ body main .aboutme .descripcion p, body main .aboutme .hobbies p {
   font-size: 18px;
   color: #ffffff;
 }
-body main section div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+body main section h2 {
+  text-align: center;
+  color: #15b69b;
   padding: 10px;
+  background-color: #070707d3;
+  border-radius: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
-body main section .terminados {
+body main section .estudios {
+  background-color: #07070785;
+  border-radius: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 3%;
+  padding-bottom: 30px;
+}
+body main section .estudios h3 {
+  color: #15b69b;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+body main section .estudios .terminados {
   display: flex;
   justify-content: space-evenly;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
   flex-wrap: wrap;
 }
-body main section .terminados .logos {
+body main section .estudios .terminados .logos {
   display: flex;
   flex-direction: column;
 }
-body main section .terminados .logos:hover {
+body main section .estudios .terminados .logos:hover {
   transform: scale(1.1);
   background-color: #ffffff15;
   border-radius: 20%;
 }
-body main section .terminados .logos:hover h3 {
+body main section .estudios .terminados .logos:hover h4 {
   color: #ffffff;
 }
-body main section .terminados .logos h3 {
+body main section .estudios .terminados .logos h4 {
   text-align: center;
-  color: #046857;
+  color: #06362E;
+  font-size: 18px;
 }
-body main section .terminados .logos .img_html, body main section .terminados .logos .img_flask, body main section .terminados .logos .img_django, body main section .terminados .logos .img_javascripts, body main section .terminados .logos .img_mysql, body main section .terminados .logos .img_python, body main section .terminados .logos .img_github, body main section .terminados .logos .img_git, body main section .terminados .logos .img_bootstrap, body main section .terminados .logos .img_sass, body main section .terminados .logos .img_css {
+body main section .estudios .terminados .logos .img_html, body main section .estudios .terminados .logos .img_flask, body main section .estudios .terminados .logos .img_django, body main section .estudios .terminados .logos .img_javascripts, body main section .estudios .terminados .logos .img_mysql, body main section .estudios .terminados .logos .img_python, body main section .estudios .terminados .logos .img_github, body main section .estudios .terminados .logos .img_git, body main section .estudios .terminados .logos .img_bootstrap, body main section .estudios .terminados .logos .img_sass, body main section .estudios .terminados .logos .img_css {
   background-image: url("../multimedia/imagenes/logos/html_logo.png");
   padding: 10px;
-  width: 200px;
-  height: 200px;
+  width: 120px;
+  height: 120px;
   background-size: cover;
   background-position: center;
 }
-body main section .terminados .logos .img_css {
+body main section .estudios .terminados .logos .img_css {
   background-image: url("../multimedia/imagenes/logos/css_logo.png");
 }
-body main section .terminados .logos .img_sass {
+body main section .estudios .terminados .logos .img_sass {
   background-image: url("../multimedia/imagenes/logos/sass_logo.png");
 }
-body main section .terminados .logos .img_bootstrap {
+body main section .estudios .terminados .logos .img_bootstrap {
   background-image: url("../multimedia/imagenes/logos/Bootstrap_logo.png");
 }
-body main section .terminados .logos .img_git {
+body main section .estudios .terminados .logos .img_git {
   background-image: url("../multimedia/imagenes/logos/git_logo.png");
 }
-body main section .terminados .logos .img_github {
+body main section .estudios .terminados .logos .img_github {
   background-image: url("../multimedia/imagenes/logos/GitHub_logo.png");
 }
-body main section .terminados .logos .img_python {
+body main section .estudios .terminados .logos .img_python {
   background-image: url("../multimedia/imagenes/logos/python_logo.png");
 }
-body main section .terminados .logos .img_mysql {
+body main section .estudios .terminados .logos .img_mysql {
   background-image: url("../multimedia/imagenes/logos/mysql_logo.png");
 }
-body main section .terminados .logos .img_javascripts {
+body main section .estudios .terminados .logos .img_javascripts {
   background-image: url("../multimedia/imagenes/logos/javascript_logo.png");
 }
-body main section .terminados .logos .img_django {
+body main section .estudios .terminados .logos .img_django {
   background-image: url("../multimedia/imagenes/logos/django_logo.png");
 }
-body main section .terminados .logos .img_flask {
+body main section .estudios .terminados .logos .img_flask {
   background-image: url("../multimedia/imagenes/logos/flask_logo.png");
+}
+body main section .estudios .img_dipDW, body main section .estudios .img_dipPP {
+  width: 650px;
+  height: 500px;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../multimedia/imagenes/diplomas/diploma_DW_coderhouse.png");
+}
+body main section .estudios .img_dipPP {
+  background-image: url("../../multimedia/imagenes/diplomas/diploma_PP_prisma.png");
 }
 
 /*# sourceMappingURL=style.css.map */
