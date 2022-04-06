@@ -3,6 +3,9 @@
   margin: 0;
 }
 
+body header {
+  padding-top: 60px;
+}
 body header .fondo_header {
   display: grid;
   justify-content: center;
@@ -79,7 +82,7 @@ body main section .estudios {
   border-radius: 20px;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 3%;
+  margin-bottom: 1%;
   padding-bottom: 30px;
 }
 body main section .estudios h3 {
@@ -101,7 +104,6 @@ body main section .estudios .terminados .logos {
 }
 body main section .estudios .terminados .logos:hover {
   transform: scale(1.1);
-  background-color: #ffffff15;
   border-radius: 20%;
 }
 body main section .estudios .terminados .logos:hover h4 {
@@ -160,6 +162,32 @@ body main section .estudios .img_dipDW, body main section .estudios .img_dipPP {
 }
 body main section .estudios .img_dipPP {
   background-image: url("../../multimedia/imagenes/diplomas/diploma_PP_prisma.png");
+}
+body main section .trabajosR {
+  background-color: #07070785;
+  border-radius: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 1%;
+  padding: 10px;
+  width: 40%;
+}
+body main section .trabajosR h3 {
+  color: #ffffff;
+  padding: 10px;
+}
+body main section .trabajosR p {
+  color: #ffffff;
+  font-size: 16px;
+  padding-left: 5%;
+}
+body main section .trabajosR h4 {
+  color: #ffffff;
+  padding-left: 2%;
+  font-size: 18px;
+}
+body main section .trabajosR a {
+  color: #15b69b;
 }
 
 /*# sourceMappingURL=style.css.map */
