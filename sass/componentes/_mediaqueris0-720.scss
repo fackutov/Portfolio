@@ -1,0 +1,108 @@
+@import "../base/variantes";
+    
+@media only screen and (max-width: 719px){
+    body{
+        header{
+            .fondo_header{
+                height: 200px;      
+                h1{
+                    padding: 5px;
+                    font-size: 20px;
+                }
+                .foto{
+                    width: 100px;
+                    height: 100px;
+                }  
+                h2{
+                    font-size: 18px;
+                }     
+            }
+        }
+        main{
+            .aboutme{
+                padding-left: 1%;
+                padding-right: 1%;
+                padding-top: 15px;
+                .descripcion{
+                    margin: 1%;
+                    h2{
+                        padding-left: 2%;
+                        font-size: 18px;
+                    }
+                    p{
+                        padding-left: 2%;
+                        padding-right: 2%;
+                        font-size: 14px;
+                    }
+                }
+            }
+            section{
+                h2{
+                    padding: 5px;
+                    margin-left: 3%;
+                    margin-right: 3%;
+                }
+                .estudios{
+                    margin-left: 2%;
+                    margin-right: 2%;
+                    padding-bottom: 15px;
+                    h3{
+                        padding-top: 15px;
+                        padding-bottom: 10px;
+                    }
+                    .terminados{
+                        padding-left: 2%;
+                        padding-right: 2%;
+                        .logos{
+                            h4{
+                                font-size: 13px;
+                            }
+                            .img_html{
+                                padding: 3px;
+                                width: 75px;
+                                height: 75px;
+                            }
+                        }
+                    } 
+                    .img_dipDW{
+                        width: 350px;
+                        height: 275px;
+                        margin-bottom: 10px;
+                    }
+                }   
+            }
+            section{
+                .trabajosR{
+                    margin-left: 3%;
+                    margin-right: 3%;
+                    padding-bottom: 10px;
+                    div{
+                        border-radius: 10px;
+                        margin-bottom: 1%;
+                        padding: 5px;
+                        width: 48%;
+                        p{
+                            font-size: 12px;
+                        }
+                        h4{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+        footer{
+            height: 120px;
+            .contacto{
+                h2{
+                    font-size: 16px;
+                }
+                div{
+                    h3{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}

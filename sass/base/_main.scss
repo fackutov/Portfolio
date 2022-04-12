@@ -1,11 +1,13 @@
 
+@import "variantes";
+
 *{
     padding: 0;
     margin: 0;
 }
 body{
     main{
-        background-color: #046857;
+        background-color: $colorfondo;
         .aboutme{
             display: flex;
             justify-content: space-between;
@@ -17,20 +19,20 @@ body{
                 flex-direction: column;
                 width: 50%;
                 text-align: center;
-                background-color: #07070785;
+                background-color: $color1;
                 border-radius: 20px;
                 margin: 2%;
                 h2{
                     text-align: start;
                     padding-left: 5%;
                     font-size: 25px;
-                    color: #15b69b;
+                    color: $color2;
                 }
                 p{
                     padding-left: 5%;
                     padding-right: 5%;
                     font-size: 18px;
-                    color: #ffffff;
+                    color: $color3;
                 }
             }
             .hobbies{
@@ -40,7 +42,7 @@ body{
         section{
             h2{
                 text-align: center;
-                color: #15b69b;
+                color: $color2;
                 padding: 10px;
                 background-color: #070707d3;
                 border-radius: 20px;
@@ -48,14 +50,14 @@ body{
                 margin-right: 10%;
             }
             .estudios{
-                background-color: #07070785;
+                background-color: $color1;
                 border-radius: 20px;
                 margin-left: 10%;
                 margin-right: 10%;
                 margin-bottom: 1%;
                 padding-bottom: 30px;
                 h3{
-                    color: #15b69b;
+                    color: $color2;
                     text-align: center;
                     padding-top: 30px;
                     padding-bottom: 15px;
@@ -72,7 +74,7 @@ body{
                         &:hover{
                             transform: scale(1.1);
                             border-radius: 20%;
-                            h4{color: #ffffff;}
+                            h4{color: $color3;}
                         }
                         h4{
                             text-align: center;
@@ -151,27 +153,27 @@ body{
                 margin-right: 10%;
                 padding-bottom: 20px;
                 div{
-                    background-color: #07070785;
+                    background-color: $color1;
                     border-radius: 20px;
                     margin-bottom: 1%;
                     padding: 10px;
                     width: 48%;
                     h3{
-                        color: #ffffff;
+                        color: $color3;
                         padding: 10px;
                     }
                     p{
-                        color: #ffffff;
+                        color: $color3;
                         font-size: 16px;
                         padding-left: 5%;
                     }
                     h4{
-                        color: #ffffff;
+                        color: $color3;
                         padding-left: 2%;
                         font-size: 18px;
                     }
                     a{
-                        color: #15b69b;
+                        color: $color2;
                         &:hover{
                             color: #000000;
                         }
