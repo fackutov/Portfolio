@@ -1,0 +1,23 @@
+
+
+body{
+    footer{
+        height: 180px;
+        background-color: #06362E;
+        .contacto{
+            display: flex;
+            justify-content: center;
+            h2{
+                padding: 15px;
+                color: aliceblue;
+            }
+            div{
+                padding-top: 40px;
+                h3{
+                    padding: 5px;
+                    color: aliceblue;
+                }
+            }
+        }
+    }
+}

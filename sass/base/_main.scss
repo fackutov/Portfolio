@@ -4,42 +4,6 @@
     margin: 0;
 }
 body{
-    header{
-        padding-top: 60px;
-        .fondo_header{
-            display: grid;
-            justify-content: center;
-            grid-template-columns: 1;
-            grid-template-rows: 4;
-            height: 400px;
-            align-items: center;
-            background-image: url("../multimedia/imagenes/header/fondo_header.jpg");
-            opacity: 94%;      
-            h1{
-                grid-column: 1/2;
-                grid-row: 1/2;
-                text-align: center;
-                color: #15b69b;
-                padding: 10px;
-                background-color: #070707d3;
-                border-radius: 20px;
-            }
-            .foto{
-                margin-left: 30%;
-                grid-column: 1/2;
-                grid-row: 2/4;
-                width: 200px;
-                height: 200px;
-                border-radius: 50%;
-            } 
-            h2{
-                grid-column: 1/2;
-                grid-row: 4/5;
-                @extend h1     
-            }        
-        }
-    }
-    
     main{
         background-color: #046857;
         .aboutme{
@@ -174,36 +138,44 @@ body{
                     background-image: url("../../multimedia/imagenes/diplomas/diploma_DW_coderhouse.png");
                 }
                 .img_dipPP{
-                    background-image: url("../../multimedia/imagenes/diplomas/diploma_PP_prisma.png");
+                    background-image: url("../../multimedia/imagenes/diplomas/diploma_PP_prisma.jpg");
                     @extend .img_dipDW
                 }
             }   
         }
         section{
             .trabajosR{
-                background-color: #07070785;
-                border-radius: 20px;
+                display: flex;
+                justify-content: space-around;
                 margin-left: 10%;
                 margin-right: 10%;
-                margin-bottom: 1%;
-                padding: 10px;
-                width: 40%;
-                h3{
-                    color: #ffffff;
+                padding-bottom: 20px;
+                div{
+                    background-color: #07070785;
+                    border-radius: 20px;
+                    margin-bottom: 1%;
                     padding: 10px;
-                }
-                p{
-                    color: #ffffff;
-                    font-size: 16px;
-                    padding-left: 5%;
-                }
-                h4{
-                    color: #ffffff;
-                    padding-left: 2%;
-                    font-size: 18px;
-                }
-                a{
-                    color: #15b69b;
+                    width: 48%;
+                    h3{
+                        color: #ffffff;
+                        padding: 10px;
+                    }
+                    p{
+                        color: #ffffff;
+                        font-size: 16px;
+                        padding-left: 5%;
+                    }
+                    h4{
+                        color: #ffffff;
+                        padding-left: 2%;
+                        font-size: 18px;
+                    }
+                    a{
+                        color: #15b69b;
+                        &:hover{
+                            color: #000000;
+                        }
+                    }
                 }
             }
         }
